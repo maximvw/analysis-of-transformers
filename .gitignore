@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+.ipynb_checkpoints/
+.claude/
+
+# Training artifacts
+train_models/
+icot/ckpts/
+icot/paper_figures/
+Internalize_CoT_Step_by_Step/logs/
+Internalize_CoT_Step_by_Step/data/*/train.txt
+
+# Large weights
+*.bin
+*.pt
+*.pth
+
+# Internal documents and exports
+*.pdf
+*.docx
+tmp_*.txt

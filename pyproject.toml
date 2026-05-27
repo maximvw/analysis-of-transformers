@@ -1,0 +1,18 @@
+[project]
+name = "analysis-of-transformers"
+version = "0.1.0"
+description = "Public transformer reasoning experiments and analysis code"
+readme = "README.md"
+requires-python = ">=3.11.13"
+dependencies = [
+    "einops>=0.8.2",
+    "fancy-einsum>=0.0.3",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.3",
+    "pandas>=3.0.1",
+    "plotly>=6.6.0",
+    "python-docx>=1.2.0",
+    "scikit-learn>=1.8.0",
+    "torch>=2.10.0",
+    "transformers>=5.3.0",
+]
